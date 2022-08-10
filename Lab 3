@@ -1,0 +1,26 @@
+# CS50x
+Lab 3
+sort1 uses: TODO
+Bubble sort
+
+How do you know?: TODO
+given a sorted list, sort 1 has a shorter real time than sort 3
+
+sort2 uses: TODO
+Merge sort
+
+How do you know?: TODO
+b/c it takes the least amount of time out of all 3 sort methods (for both random 10000 and reversed 10000)
+
+sort3 uses: TODO
+Selection sort
+
+How do you know?: TODO
+given a sorted list, sort 3 has a longer real time than sort 1. 
+
+random 10000 sort 1 --> real time 0.326s
+random 10000 sort 2 --> real time 0.069s
+random 10000 sort 3 --> real time 0.178s
+
+sorted 10000 sort 1 --> real time 0.062s
+sorted 10000 sort 3 --> real time 0.191s
