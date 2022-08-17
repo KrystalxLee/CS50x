@@ -1,0 +1,11 @@
+//1.sql
+SELECT name FROM songs;
+
+//2.sql
+//list the songs in increasing order of tempo
+SELECT name FROM songs ORDER BY tempo; 
+
+//syntax to order songs in decreasing order of tempo
+SELECT name FROM songs ORDER BY tempo DESC; 
+
+//3.sql 
