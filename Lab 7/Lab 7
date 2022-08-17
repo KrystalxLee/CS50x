@@ -21,5 +21,7 @@ SELECT AVG(energy) FROM songs;
 SELECT name FROM songs WHERE artist_id LIKE (SELECT id FROM artists WHERE name LIKE "Post Malone"); 
 
 //7.sql
+SELECT AVG(energy) FROM songs WHERE artist_id LIKE(SELECT id FROM artists WHERE name LIKE "Drake");
 
 //8.sql
+SELECT name FROM songs WHERE name LIKE "*feat.*";
