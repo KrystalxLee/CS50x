@@ -1,0 +1,13 @@
+--write a SQL query to list the titles of all movies released in 2008
+SELECT title FROM movies WHERE year = 2008; 
+
+--write a SQL query to determine the birth year of Emma Stone
+SELECT birth FROM people WHERE name = "Emma Stone";
+
+--write a SQL query to list the titles of all movies with a release date on or after 2018, in alphabetical order
+SELECT title FROM movies WHERE year >=2018 ORDER BY title; 
+
+--write a SQL query to determine the number of movies with an IMDb rating of 10.0.
+SELECT COUNT(votes) FROM ratings WHERE rating = 10;
+
+--write a SQL query to list the titles and release years of all Harry Potter movies, in chronological order
